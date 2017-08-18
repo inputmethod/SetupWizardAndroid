@@ -1,6 +1,6 @@
 package com.typany.utilities;
 
-import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.util.Log;
@@ -16,13 +16,21 @@ public final class IntentUtil {
         // helper class, should not instance
     }
 
-    public static void openBrowser(Activity context, String url) {
+    public static void openBrowser(Context context, String url) {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED);
+        tryIntent(context, intent);
+    }
+
+    private static void tryIntent(Context context, Intent intent) {
         try {
             context.startActivity(intent);
         } catch (Exception e) {
-            Log.e(TAG, "");
+            Log.e(TAG, "Exception happen while start activity, " + e.getMessage());
         }
+    }
+
+    public static void navigateActivity(Context context, Class cls) {
+        tryIntent(context, new Intent(context, cls));
     }
 }
