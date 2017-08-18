@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Float Window</string>
+    <string name="tip">Here is the content from clipboard, click to view it:</string>
+</resources>

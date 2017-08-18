@@ -22,7 +22,7 @@ public final class IntentUtil {
         tryIntent(context, intent);
     }
 
-    private static void tryIntent(Context context, Intent intent) {
+    public static void tryIntent(Context context, Intent intent) {
         try {
             context.startActivity(intent);
         } catch (Exception e) {
