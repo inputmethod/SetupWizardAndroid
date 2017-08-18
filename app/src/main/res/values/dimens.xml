@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="wizard_text_size_button">24sp</dimen>
+    <dimen name="wizard_button_width">272dip</dimen>
+    <dimen name="wizard_notice_mar_bottom">8dip</dimen>
+    <dimen name="wizard_text_size_notice">10sp</dimen>
+</resources>

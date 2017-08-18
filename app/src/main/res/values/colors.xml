@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="item_bg_pressed_2_7">#38AFAEC3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="t_setup_button">#527FFF</color>
+    <color name="t_setup_button_disable">#78527FFF</color>
 </resources>

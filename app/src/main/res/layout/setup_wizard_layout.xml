@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_setup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_setup">
+
+    <RelativeLayout
+        android:id="@+id/wizard_image_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/wizard_list_bg"
+            android:layout_width="118dp"
+            android:layout_height="166dp"
+            android:layout_marginLeft="123dp"
+            android:layout_marginStart="123dp"
+            android:layout_marginTop="104dp"
+            android:background="@null"
+            android:src="@drawable/wizard_list_bg" />
+
+        <ImageView
+            android:id="@+id/wizard_list_one"
+            android:layout_width="118dp"
+            android:layout_height="166dp"
+            android:layout_marginLeft="123dp"
+            android:layout_marginStart="123dp"
+            android:layout_marginTop="104dp"
+            android:background="@null"
+            android:src="@drawable/wizard_list_one" />
+
+        <ImageView
+            android:id="@+id/wizard_list_two"
+            android:layout_width="118dp"
+            android:layout_height="166dp"
+            android:layout_marginLeft="123dp"
+            android:layout_marginStart="123dp"
+            android:layout_marginTop="104dp"
+            android:background="@null"
+            android:src="@drawable/wizard_list_two" />
+
+        <ImageView
+            android:id="@+id/wizard_bg_main"
+            android:layout_width="360dp"
+            android:layout_height="260dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="58dp"
+            android:background="@null"
+            android:src="@drawable/wizard_bg_main_l" />
+
+        <ImageView
+            android:id="@+id/wizard_bg_out"
+            android:layout_width="264dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
+            android:background="@null"
+            android:src="@drawable/wizard_bg_outside" />
+
+        <ImageView
+            android:id="@+id/wizard_bg_in"
+            android:layout_width="220dp"
+            android:layout_height="104dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="84dp"
+            android:background="@null"
+            android:src="@drawable/wizard_bg_stars" />
+
+        <ImageView
+            android:id="@+id/wizard_float_typany"
+            android:layout_width="162dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="150dp"
+            android:background="@null"
+            android:src="@drawable/wizard_float_typany_one" />
+
+        <ImageView
+            android:id="@+id/wizard_pen_right"
+            android:layout_width="36dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="178dp"
+            android:background="@null"
+            android:src="@drawable/wizard_pen_right" />
+
+        <ImageView
+            android:id="@+id/wizard_pen_left"
+            android:layout_width="42dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="88dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="148dp"
+            android:background="@null"
+            android:src="@drawable/wizard_pen_left" />
+
+        <ImageView
+            android:id="@+id/wizard_switch_bg"
+            android:layout_width="18dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="163dp"
+            android:background="@null"
+            android:src="@drawable/wizard_switch_bg_close" />
+
+        <ImageView
+            android:id="@+id/wizard_switch_bg_open"
+            android:layout_width="18dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="163dp"
+            android:background="@null"
+            android:src="@drawable/wizard_switch_bg_open" />
+
+        <ImageView
+            android:id="@+id/wizard_switch_btn"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="226dp"
+            android:layout_marginStart="226dp"
+            android:layout_marginTop="160dp"
+            android:background="@null"
+            android:src="@drawable/wizard_switch_close" />
+
+        <ImageView
+            android:id="@+id/wizard_switch_btn_open"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="236dp"
+            android:layout_marginStart="236dp"
+            android:layout_marginTop="160dp"
+            android:background="@null"
+            android:src="@drawable/wizard_switch_open"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/wizard_image_holder2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        >
+
+        <ImageView
+            android:id="@+id/wizard_theme_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            android:src="@drawable/wizard_theme_pre_bg"
+            />
+
+        <RelativeLayout
+            android:id="@+id/wizard_theme_pre_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="1dp"
+            android:background="@drawable/bg_iv_theme_pre">
+            <ImageView
+                android:id="@+id/wizard_theme_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/wizard_image_holder3"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/wizard_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/setup_keyboard"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/wizard_image_holder"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/wizard_button_1"
+            android:layout_width="240dp"
+            android:layout_height="42dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="126dp"
+            android:background="@drawable/dialog_button_background"
+            android:drawableStart="@drawable/wizard_btn_one_icon"
+            android:enabled="true"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:text="@string/wizard_first_step_label"
+            android:textAllCaps="false"
+            android:textColor="@color/setup_button_selector"
+            android:textSize="@dimen/wizard_text_size_button"
+            android:textStyle="normal"
+            android:typeface="sans"
+            tools:ignore="RtlCompat" />
+
+        <Button
+            android:id="@+id/wizard_button_2"
+            android:layout_width="240dp"
+            android:layout_height="42dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="64dp"
+            android:background="@drawable/dialog_button_background"
+            android:drawableLeft="@drawable/wizard_btn_two_icon"
+            android:drawableStart="@drawable/wizard_btn_two_icon"
+            android:enabled="false"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:text="@string/setup_two"
+            android:textAllCaps="false"
+            android:textColor="@color/setup_button_selector"
+            android:textSize="@dimen/wizard_text_size_button"
+            android:textStyle="normal"
+            android:typeface="sans" />
+
+
+        <TextView
+            android:id="@+id/wizard_user_agreement"
+            android:layout_width="@dimen/wizard_button_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="@dimen/wizard_notice_mar_bottom"
+            android:gravity="center_horizontal"
+            android:text="dddddd"
+            android:visibility="visible"
+            android:textSize="@dimen/wizard_text_size_notice" />
+    </RelativeLayout>
+</RelativeLayout>
