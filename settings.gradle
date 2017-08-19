@@ -1,2 +1,2 @@
-include ':app', ':FloatWindow'
+include ':app', ':FloatWindow', ':mitoast'
 include ':CommonUtils'
